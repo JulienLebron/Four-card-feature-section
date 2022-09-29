@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
+body {
+    background: #FAFAFA;
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    padding: 0 270px;
+}
+
+.card-container {
+    width: 375px;
+    padding: 50px 25px;
+}
+
+h1 {
+    color: var(--grayish-blue);
+    font-size: 1.65em;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.main-title {
+    font-size: 1.7em;
+    margin-top: 0;
+}
+
+.main-sub-title {
+    color: var(--grayish-blue);
+    font-size: 1.05em;
+    text-align: center;
+}
+
+.card {
+    background: #fff;
+    padding: 20px 18px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px black;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.card p {
+    color: var(--grayish-blue);
+    padding-bottom: 20px;
+}
+
+.card-body {
+    text-align: right;
+}
+
+.first-card {
+    border-top: 8px solid var(--cyan);
+}
+
+.second-card {
+    border-top: 8px solid var(--red);
+}
+
+.third-card {
+    border-top: 8px solid var(--orange);
+}
+
+.fourth-card {
+    border-top: 8px solid var(--blue);
+}
+
+
+@media screen and (min-width: 1440px) {
+    
+    body {
+        height: 100vh;
+        display: block;
+    }
+
+    .header {
+        width: 1000px;
+        margin: auto;
+        text-align: center;
+        padding: 20px 235px 0 235px
+    }
+
+    h1 {
+        font-size: 2.4em;
+    }
+    
+    .main-title {
+        font-size: 2.5em;
+        margin-bottom: 0;
+    }
+
+    .main-sub-title {
+        margin-bottom: 0;
+    }
+
+    .card-container {
+        width: 1300px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 380px;
+        height: 270px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .karma {
+        order: 4;
+        margin-top: -145px;
+    }
+
+    .first-card,
+    .fourth-card {
+        margin-top: 155px;
+    }
+
+
+    
+}
