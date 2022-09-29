@@ -25,7 +25,7 @@ body {
     flex-wrap: wrap;
 }
 
-.header {
+header {
     padding: 0 270px;
 }
 
@@ -98,7 +98,7 @@ h1 {
         display: block;
     }
 
-    .header {
+    header {
         width: 1000px;
         margin: auto;
         text-align: center;
